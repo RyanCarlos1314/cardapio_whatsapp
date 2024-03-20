@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="./styles/output.css" />
 
-    <title>Document</title>
+    <title>Dev Burguer</title>
 </head>
 <body>
 
@@ -336,7 +336,8 @@
     <!--Fim menu-->
 
     <!--Modal Cart-->
-    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden">
+    <div class="bg-black/60 w-full h-full fixed top-0 left-0 z-[99] items-center justify-center hidden"
+        id="cart-modal">
 
         <div class="bg-white p-5 rounded-md min-w-[90%] md:min-w-[600px]">
             <h2 class="text-center font-bold text-2xl md-2">Meu carinho</h2>
@@ -355,7 +356,7 @@
             <p class="text-red-500 hidden" id="address-warn">Digite seu endereço completo!</p>
 
             <div class="flex items-center justify-between mt-5 w-full">
-                <button id="close=modal-btn">Fechar</button>
+                <button id="close-modal-btn">Fechar</button>
                 <button id="checkout-btn" class="bg-green-500 text-white px-4 py-1 rounded">Finalizar Pedido</button>
             </div>
         </div>
