@@ -1,6 +1,5 @@
 # cardapio_whatsapp
  Software de cardapio com integração ao Whatsapp
 
-# Comandos rodar o tailwind
-
+# command to run tailwind
 npm run dev
