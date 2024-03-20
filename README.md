@@ -36,19 +36,19 @@ adicione dentro da sua pasta de estilos -> src/input.css
 # 4-Start using Tailwind in your HTML
 Add your compiled CSS file to the <head> and start using Tailwind’s utility classes to style your content.
 
-<!doctype html>
+**<!doctype html>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./output.css" rel="stylesheet">
+  #<link href="./output.css" rel="stylesheet">#
 </head>
 <body>
   <h1 class="text-3xl font-bold underline">
     Hello world!
   </h1>
 </body>
-</html>
+</html>**
 
 
 # 5-command to run tailwind
