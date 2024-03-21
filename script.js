@@ -11,7 +11,7 @@ const addresWarn = document.getElementById("address-warn")
 
 let cart = [];
 
-//Abrei modal do carrinho
+//Abre modal do carrinho
 cartBtn.addEventListener("click", function(){
     cartModal.style.display = "flex"
 })
@@ -35,10 +35,10 @@ menu.addEventListener("click", function(event){
         const name = parentButton.getAttribute("data-name")
         const price = parseFloat(parentButton.getAttribute("data-price"))
         addToCart(name, price)
-        //Adicionar no carrinho
+
     }
 })
-//funcção para adicionar no carrinho
+//função para adicionar no carrinho
 function addToCart(name, price){
     const existingItem = cart.find(item=> item.name === name)
 
@@ -78,7 +78,7 @@ function updateCartModal(){
                 <p class="font-medium mt-2">R$ ${item.price.toFixed(2)}</p>
             </div>
 
-            <button class="remove-from-cart-btn" data-name="${item.name}">
+            <button class="remove-from-cart-btn font-bold" data-name="${item.name}">
              Remover
             </button>
 
