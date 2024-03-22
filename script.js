@@ -57,6 +57,21 @@ function addToCart(name, price){
 
     updateCartModal()
 
+    // Usando Toastify para exibir notificação
+
+    Toastify({
+        text: "Produto adicionado ao carrinho",
+        duration: 3000,
+        close: true,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "#778899",
+        },
+    }).showToast();
+
+
 }
    
 
