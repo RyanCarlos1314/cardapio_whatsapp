@@ -67,7 +67,7 @@ function addToCart(name, price){
         position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "#778899",
+          background: "#54CC0A",
         },
     }).showToast();
 
@@ -156,7 +156,7 @@ checkoutBtn.addEventListener("click", function(){
 
     const isOpen = checkRestaurantOpen();
     if(!isOpen){
-
+        // Usando Toastify para exibir notificação
         Toastify({
             text: "Ops o restaurente está fechado",
             duration: 3000,
